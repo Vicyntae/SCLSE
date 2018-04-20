@@ -1,0 +1,35 @@
+==== SSE NIF Optimizer v3.0.1 by ousnius ====
+----------------------------------------------------------------------
+[INFO] Options:
+- Folder: 'E:\Documents\Projects\SCLSE\Data\Meshes\plants'
+- Sub Directories: Yes
+- Smooth Normals: No
+- Head Parts Only: No
+- Clean Skinning: Yes
+- Calc Bounds: Yes
+- Remove Parallax: Yes
+
+[INFO] 4 file(s) were found.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\plants\floramountainflower01white.nif'...
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\plants\mountainflower01white.nif'...
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\plants\SCL_LemonMesh.nif'...
+[INFO] Removed vertex colors from shapes:
+- SCL_LemonMesh:0
+- SCL_LemonMesh:1
+- SCL_LemonMesh:2
+
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\plants\SCL_OrangeMesh.nif'...
+[INFO] Removed vertex colors from shapes:
+- SCL_OrangeMesh:0
+- SCL_OrangeMesh:1
+
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Program finished.

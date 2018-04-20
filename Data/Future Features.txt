@@ -1,0 +1,10 @@
+Vital
+Ancillary
+- Better vomit animations and sound
+	-Vomit Sound
+	-Groaning noise (when overfull)
+	-Burping noise?
+- Recolored sick pile
+Cool
+- When you have more than x number of gold pieces, when you walk, a jingling sound is heard
+- Vomit as a weapon? Check out Afflicted spells...

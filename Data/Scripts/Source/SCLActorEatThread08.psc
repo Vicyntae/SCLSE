@@ -1,0 +1,1 @@
+ScriptName SCLActorEatThread08 Extends SCLActorEatThread

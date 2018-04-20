@@ -1,0 +1,15 @@
+game: skyrim
+imports:
+    - E:\Documents\Projects\SCL\Data\Scripts\Source\
+    - E:\Games\Mod Organizer\mods\JContainers\scripts\source
+    - E:\Games\Mod Organizer\mods\RaceMenu Unpacked\scripts\source
+    - E:\Games\Mod Organizer\mods\SexLab Inflation Framework\Scripts\Source\SexLab Inflation Framework
+    - E:\Games\Mod Organizer\mods\SkyUI 5 SDK\Scripts\Source
+    - E:\Games\Mod Organizer\mods\PapyrusUtil - Modders Scripting Utility Functions\scripts\Source
+    - E:\Games\Mod Organizer\mods\UI Extensions Extracted\scripts\source
+    - C:\Games\Steam\SteamApps\common\Skyrim\Data\Scripts\Source
+    - C:\Games\Steam\SteamApps\common\Skyrim\Data\Scripts\Source\Dawnguard
+    - C:\Games\Steam\SteamApps\common\Skyrim\Data\Scripts\Source\Dragonborn
+    - C:\Games\Steam\SteamApps\common\Skyrim\Data\Scripts\Source\Hearthfire
+output: E:\Documents\Projects\SCL\Data\Scripts\
+optimize: true

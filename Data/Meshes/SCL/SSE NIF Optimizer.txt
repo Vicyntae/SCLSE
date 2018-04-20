@@ -1,0 +1,38 @@
+==== SSE NIF Optimizer v3.0.1 by ousnius ====
+----------------------------------------------------------------------
+[INFO] Options:
+- Folder: 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL'
+- Sub Directories: Yes
+- Smooth Normals: No
+- Head Parts Only: No
+- Clean Skinning: Yes
+- Calc Bounds: Yes
+- Remove Parallax: Yes
+
+[INFO] 6 file(s) were found.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL\Old\SCL_MBelly_0.nif'...
+[INFO] Skinned mesh: Cleaning up skin data and calculating bounds.
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL\Old\SCL_MBelly_1.nif'...
+[INFO] Skinned mesh: Cleaning up skin data and calculating bounds.
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL\SCL_FBelly_0.nif'...
+[INFO] Skinned mesh: Cleaning up skin data and calculating bounds.
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL\SCL_FBelly_1.nif'...
+[INFO] Skinned mesh: Cleaning up skin data and calculating bounds.
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL\SCL_MBelly_0.nif'...
+[INFO] Skinned mesh: Cleaning up skin data and calculating bounds.
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\SCL\SCL_MBelly_1.nif'...
+[INFO] Skinned mesh: Cleaning up skin data and calculating bounds.
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Program finished.

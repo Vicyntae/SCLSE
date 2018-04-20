@@ -1,0 +1,64 @@
+Version 0.32
+- Rewrote monitor script, fixing menu crash in addons
+- Fixed Update Script update patterns, and added fall-backs in case of irregularities with base capacities
+- Added player thoughts function and option in MCM
+- Adjusted actor release function and vomit functions
+
+Version 0.3
+- Fixed dependency checker. Now runs before mod is started.
+- Implimented Versioning
+- Added support for other capacities (must be reported in "SCLTotalValues" and "SCLBellyValues" in ActorData)
+- Added license file
+- Added list of item types that's okay from vomit functions to remove
+- Removed CANS and NetImmerse from inflation options (outdated, use NiOverride or SLIF instead)
+- Gutted SCLMonitor, main update function now in SCLUpdater
+- Fixed vomit functions not returning all items
+- Added vomit item function
+- Fixed add-item menu in Actor WM
+- Moved profile creation into library, added queue
+- Merged SCLSTEffect script into SCLMonitor
+- Improved daily update function, now runs when the player sleeps, or 24 hours have passed
+- Split vomit function in Menu into 2, now the total clear function only appears when debug is enabled
+- Added more functions to SCLSystem, now all of them are global functions
+- Limited monitor is no more, not needed thanks to new updater
+- Rewrote STDamage function, overfull and heavy debuffs calculated in updater, applied in monitor
+- Also expanded apply function for damage, can now record all sorts of actorvalue changes
+- Trimmed display variables in menus, now only shows to two decimal places max
+- Added belly curving, allows for slower growth at larger values, and high weight scaling, slowing down growth at high actor weights (thanks darkconsole!)
+- Split Visual update function into several other functions.
+- Added new perk system internally: Perks will now be hidden if they can't be taken.
+- Fixed UIE menus; should be more responsive and less likely to break
+
+Version 0.2
+- Added vomit timer (default is 30 minutes in-game)
+- Added 2 new perks (Heavy Burden and Overload) to MCM and UIE Perk Menu
+- Added color-changing to Actor Wheel Menu, "Add Items" turns red the closer to max fullness.
+- Added spaces in Actor Wheel Menu for add-ons (Use "Next Menu" to see more)
+- Reconfigured SCLSTEffect so that stats don't "spike" when burdened
+- Implimented total digested food counter
+- Fixed mod being registered under two names in SLIF
+- Lowered starting digest values for all actors
+- Added temp function for finding sum of all item weights in actor (right now only stomach)
+- Enabled SCLib.ST_QuickUpdate to register for updates
+- Added "Equipment" Inflation and systems (requires new meshes and injector script)
+- Fixed Trash Scripts
+- Added "Finished digesting" events for all items
+- Created convienience functions in SCLSystem script for add-ons
+- Added tracking system removal after vomiting (Spells and JMap)
+- Reordered startup sequence
+
+Version 0.1:
+- Brand new code base, re-written from scratch with all the latest tricks
+- Reformatted the MCM 
+- Removed item effects (it was getting too messy)
+- Added UIExtensions menus
+- Added "Limited" monitor for unimportant characters, use "Elevate Monitor" option in WheelMenu to convert to full monitor
+- Adjust how capacity is calculated: now scales with actor size
+- Updating based on real-world seconds, not in-game hours
+- Added Trash handler for people who abuse the vomit/transfer functions
+- Overfullness effects now placed in own MagicEffect
+- Added database reloaded option, use when new mods are added (right now, only checks for DLCs)
+- Fixed mod breaking after reloading
+- Items now picked up via ActionKey will always be stored in player's stomach, not eaten
+- Removed dependencies on everything except Skyrim.esm
+- Bugfixed and optimized everything

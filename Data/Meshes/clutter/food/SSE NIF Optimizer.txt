@@ -1,0 +1,23 @@
+==== SSE NIF Optimizer v3.0.1 by ousnius ====
+----------------------------------------------------------------------
+[INFO] Options:
+- Folder: 'E:\Documents\Projects\SCLSE\Data\Meshes\clutter\food'
+- Sub Directories: Yes
+- Smooth Normals: No
+- Head Parts Only: No
+- Clean Skinning: Yes
+- Calc Bounds: Yes
+- Remove Parallax: Yes
+
+[INFO] 1 file(s) were found.
+----------------------------------------------------------------------
+Loading 'E:\Documents\Projects\SCLSE\Data\Meshes\clutter\food\SCL_TeaMesh.nif'...
+[INFO] Removed vertex colors from shapes:
+- SCL_TeaMesh:0
+- SCL_TeaMesh:1
+- SCL_TeaMesh:2
+- SCL_TeaMesh:3
+
+[SUCCESS] Saved file.
+----------------------------------------------------------------------
+Program finished.
